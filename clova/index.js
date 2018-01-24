@@ -76,7 +76,6 @@ class CEKRequest {
 
     switch (intent) {
     case 'ThrowDiceIntent':
-    default:
       let diceCount = 1
       cekResponse.appendSpeechText(`주사위를 ${diceCount}개 던집니다.`)
       cekResponse.appendSpeechText({
@@ -87,6 +86,9 @@ class CEKRequest {
       const throwResult = throwDice(diceCount)
       cekResponse.appendSpeechText(resultText(throwResult))
       break
+    case 'Clova.GuideIntent':
+    default:
+      cekResponse.setSimpleSpeechText("주사위 한 개 던져줘, 라고 시도해보세요.")
     }
 
     if (this.session.new == false) {
