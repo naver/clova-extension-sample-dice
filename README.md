@@ -1,5 +1,5 @@
 ### 개요 
-'주사위 놀이'라는 Clova extension의 REST API 서버 소스 코드입니다. '주사위 놀이' 익스텐션이 어떻게 작동하는지 보시려면, Clova 앱이나 Clova 스피커(WAVE, Friens)에서 '주사위놀이 시작해줘'라고 해보시길 바랍니다. 해당 익스텐션을 실행하면 주사위 굴린 결과 값을 알려주며, 주사위는 1개부터 10개까지 굴릴 수 있으며, 2개 이상인 경우는 그 결과의 합을 알려 줍니다. 
+'주사위 놀이'라는 Clova extension의 REST API 서버 소스 코드입니다. '주사위 놀이' 익스텐션이 어떻게 작동하는지 보시려면, Clova 앱이나 Clova 스피커(WAVE, Friends)에서 '주사위놀이 시작해줘'라고 해보시길 바랍니다. 해당 익스텐션을 실행하면 주사위 굴린 결과 값을 알려주며, 주사위는 1개부터 10개까지 굴릴 수 있으며, 2개 이상인 경우는 그 결과의 합을 알려 줍니다. 
 
 ### 사용환경
 '주사위 놀이'라는 Clova extension의 REST API 서버는 node.js로 구현되어 있습니다.  Windows, MacOS, Linux 등 node.js 가 구동 가능한 OS면 실행 가능하며, 구체적인 목록들은 여기를 참고하셔서, node.js를 먼저 설치하시길 바랍니다. https://nodejs.org/ko/download/current/
